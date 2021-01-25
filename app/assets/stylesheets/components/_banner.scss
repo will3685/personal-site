@@ -1,0 +1,92 @@
+@media (max-width: 575px) {
+  
+  .banner-name h1{
+    font-size: 32px;
+  }
+
+  .banner-presentation h3{
+    font-size: 16px;
+  }
+
+  .banner-about-me {
+    font-size: 16px;
+  }
+
+  .banner-job {
+    font-size: 16px;
+  }
+
+  .banner-localization {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 575px) {
+  .banner-name h1 {
+    font-size: 72px;
+  }
+
+  .banner-presentation h3 {
+    font-size: 18px;
+  }
+
+  .banner-about-me {
+    font-size: 18px;
+  }
+}
+  
+.banner {
+  background-color: $background;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: luminosity;
+  height: 100vh;
+  z-index: -1;
+}
+  
+.banner-presentation h3 {
+  color: $light-black;
+  position: absolute;
+  top: 30vh;
+  font-family: 'Archivo Black', sans-serif;
+}
+
+.banner-name h1 {
+  position: absolute;
+  font-weight: bold;
+  color: $light-black;
+  font-family: 'Archivo Black', sans-serif;
+  top: 35vh;
+}
+  
+.banner-about-me p {
+  color: $light-black;
+  position: absolute;
+  top: 47vh;
+  font-family: 'Archivo Black', sans-serif;
+}
+  
+.banner-job {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  color: $light-black;
+  top: 86vh;
+  font-family: 'Archivo Black', sans-serif;
+}
+  
+.banner-localization {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 90vh;
+  color: $light-black;
+  font-family: 'Archivo Black', sans-serif;
+}
+
+
+
+
+
+
+

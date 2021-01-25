@@ -21,7 +21,7 @@ import "bootstrap";
 
 // Internal import 
 import { particleJS } from '..//components/particles';
-import Aos from '../components/aos'
+import Aos from '../components/aos';
 
 document.addEventListener('turbolinks:load', () => {
   particleJS();

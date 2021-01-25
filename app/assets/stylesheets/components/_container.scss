@@ -1,0 +1,13 @@
+@media (max-width: 575px) {
+  .container-page {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+@media (min-width: 575px) {
+  // .container {
+  //   padding-left: 40px;
+  // }
+}

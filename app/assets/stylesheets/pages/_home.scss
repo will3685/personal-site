@@ -1,1 +1,22 @@
 // Specific CSS for your home-page
+@media (min-width: 1200px) {
+  .about-me-text {
+    width: 75%;
+    margin: auto;
+  }
+}
+
+body {
+  background: $background;
+  // color: $blue-dark;
+  overflow-x: hidden;
+  h2 {
+    text-align: center;
+    // border-bottom: solid 0.5px $blue-dark;
+  }
+  // .about-me-text {
+  //   text-align: justify;
+  //   margin-bottom: 1em;
+  // }
+ }
+ 

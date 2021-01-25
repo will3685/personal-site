@@ -33,7 +33,7 @@ en:
   pages:
     home:
       banner-job: "Full Stack Developer"
-      about-me-presentation: "Hi, my name is"
+      presentation: "Hi, my name is"
       about-me: "Civil engineering for passion & coding for fun"
       localization: "Based in Rio de Janeiro"
       about: "About"

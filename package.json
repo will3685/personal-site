@@ -15,6 +15,9 @@
   },
   "version": "0.1.0",
   "devDependencies": {
+    "@types/aos": "^3.0.3",
+    "@types/rails__activestorage": "^6.0.0",
+    "@types/turbolinks": "^5.2.0",
     "webpack-dev-server": "^3.11.2"
   }
 }
