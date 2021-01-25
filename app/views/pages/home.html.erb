@@ -6,6 +6,16 @@
 
   <div id="particles-js" class="banner">
 
+    <div class="banner-languages">
+      <% @languages.each do |language, sym| %>
+        <%= link_to root_path(locale: sym), class: "without-decoration" do %>
+          <div class="icon-flag">
+            <%= image_tag "#{language}.png"%>
+          </div>
+        <% end %>
+      <% end %>
+    </div>
+
     <div class="container">
       <div class="banner-presentation">
         <h3> <%= t('.presentation') %> </h3>
@@ -28,6 +38,17 @@
     </div>
 
   </div>
+
+  <div class="wave-container">
+    <div class="container container-about">
+      <h2><%= t('.about')%></h2>
+    </div>
+
+    <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="none" fill-opacity="1" d="M0,128L80,117.3C160,107,320,85,480,85.3C640,85,800,107,960,112C1120,117,1280,107,1360,101.3L1440,96L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
+    </svg>
+  </div>
+ 
 
 </div>
 

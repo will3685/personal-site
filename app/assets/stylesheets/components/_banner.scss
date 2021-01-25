@@ -1,23 +1,21 @@
 @media (max-width: 575px) {
-  
   .banner-name h1{
     font-size: 32px;
   }
-
   .banner-presentation h3{
     font-size: 16px;
   }
-
   .banner-about-me {
     font-size: 16px;
   }
-
   .banner-job {
     font-size: 16px;
   }
-
   .banner-localization {
     font-size: 16px;
+  }
+  .banner-languages {
+    width: 100px;
   }
 }
 
@@ -25,13 +23,14 @@
   .banner-name h1 {
     font-size: 72px;
   }
-
   .banner-presentation h3 {
     font-size: 18px;
   }
-
   .banner-about-me {
     font-size: 18px;
+  }
+  .banner-languages {
+    width: 140px;
   }
 }
   
@@ -45,43 +44,43 @@
 }
   
 .banner-presentation h3 {
-  color: $light-black;
   position: absolute;
   top: 30vh;
-  font-family: 'Archivo Black', sans-serif;
 }
 
 .banner-name h1 {
   position: absolute;
   font-weight: bold;
-  color: $light-black;
-  font-family: 'Archivo Black', sans-serif;
   top: 35vh;
 }
   
 .banner-about-me p {
-  color: $light-black;
   position: absolute;
   top: 47vh;
-  font-family: 'Archivo Black', sans-serif;
 }
   
 .banner-job {
   position: absolute;
   width: 100%;
   text-align: center;
-  color: $light-black;
-  top: 86vh;
-  font-family: 'Archivo Black', sans-serif;
+  top: 88vh;
 }
   
 .banner-localization {
   position: absolute;
   width: 100%;
   text-align: center;
-  top: 90vh;
-  color: $light-black;
-  font-family: 'Archivo Black', sans-serif;
+  top: 92vh;
+}
+
+.banner-languages {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    right: 5px;
+    top: 5px;
+    display: flex;
+    justify-content: space-between;
 }
 
 

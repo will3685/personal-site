@@ -1,3 +1,23 @@
+@media (max-width: 575px) { 
+.icon-flag {
+  img {
+    width: 4vh;
+    height: 2vh;
+    border-radius: 4px;
+  }
+}
+}
+
+@media (min-width: 575px) {
+  .icon-flag {
+    img {
+      width: 6vh;
+      height: 4vh;
+      border-radius: 4px;
+    }
+  }
+}
+
 .icon-contact {
   color: black;
   font-size: 24px;
@@ -5,3 +25,4 @@
     color: #756300;
   }
 }
+

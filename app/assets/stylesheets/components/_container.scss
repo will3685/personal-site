@@ -7,7 +7,11 @@
 }
 
 @media (min-width: 575px) {
-  // .container {
-  //   padding-left: 40px;
-  // }
+  .container {
+    padding-left: 50px;
+  }
+
+  .container-about h2 {
+    padding-top: 20px;
+  }
 }
