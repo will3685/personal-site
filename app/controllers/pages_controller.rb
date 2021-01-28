@@ -3,8 +3,8 @@ class PagesController < ApplicationController
     if locale == :en
       @languages = {
         French: :fr,
-        Portuguese: :pt,
-        Spanish: :es
+        Spanish: :es,
+        Portuguese: :pt
       }
     elsif locale == :fr
       @languages = @languages = {
@@ -15,15 +15,15 @@ class PagesController < ApplicationController
 
     elsif locale == :pt
       @languages = @languages = {
-        French: nil,
+        French: :fr,
         Spanish: :es,
-        English: :en
+        English: nil
       }
     else
       @languages = {
         French: :fr,
-        English: :en,
-        Portuguese: nil
+        English: nil,
+        Portuguese: :pt
       }
     end
   end

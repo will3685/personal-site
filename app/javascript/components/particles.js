@@ -9,7 +9,7 @@ const particleJS = () => {
         "value":100,
         "density":{
           "enable": true,
-          "value_area":1000
+          "value_area":800
         }
       },
   
@@ -56,6 +56,12 @@ const particleJS = () => {
         "random": false,
         "straight": false,
         "out_mode": "out",
+        "bounce": false,
+        "attract": {
+          "enable": false,
+          "rotateX": 600,
+          "rotateY": 1200
+        }
       }
     },
   
@@ -67,6 +73,10 @@ const particleJS = () => {
           "onhover": {
             "enable":true,
             "mode": "repulse"
+          },
+          "onclick": {
+            "enable": false,
+            "mode": "push"
           },
           "resize":true
         },
