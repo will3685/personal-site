@@ -1,26 +1,28 @@
-.main-wrapper {
-  display: flex;
-}
-
 .upper-wave {
-  position: relative;
   margin: 0;
   padding: 0;
   width: 100%;
   overflow: hidden;
   line-height: 0;
-  z-index: -2;
 }
 
 .upper-wave svg {
   background: $light-black;
   display: block;
   height: 100vh;
-  z-index: -1;
 }
 
-.bottom-wave {
-  background: #0E1E25;
+.section-about {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+.section-about svg {
+  display: block;
+  background:$light-black;
+  height: 90vh;
 }
 
 
