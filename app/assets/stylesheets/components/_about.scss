@@ -12,6 +12,7 @@
 .about-content h2 {
   position :relative;
   color: #fff;
+  font-weight: bold;
   z-index: 3;
 }
 
@@ -32,7 +33,7 @@
   text-decoration: none !important;
   color: $gold;
   &:hover {
-    color: #f7fafb;
+    color: $crazy-green;
     opacity: 0.7;
   } 
 }

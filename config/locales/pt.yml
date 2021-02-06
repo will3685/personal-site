@@ -16,4 +16,15 @@ pt:
       project: "Projetos em que venho trabalhando"
       project-title: "One Click"
       project-text: "Um simples aplicativo Ruby on Rails para gerenciar a agenda."
+      entertain: "Em uma vida normal"
+      entertain-text: "Além da codificação, tenho algumas coisas que me entretêm. Eu sou realmente apaixonado por música." 
+      entertain-text-2: "Eu posso ouvir música o dia todo. Posso dizer que a música me leva até aqui, de longe, o principal."
+      entertain-text-3: "Estou compartilhando meus principais álbuns favoritos, aqueles checados, eu posso cantá-los ao contrário."
+      entertain-joke: "Você pode identificar o seu? Você consegue reconhecê-los sem cliques?"
+      entertain-social: "Siga-me em" 
+      entertain-social-2: "Eu tenho algumas listas de brincadeiras loucas que podem entreter você."
+
+      footer-mention-1: "Este sitio web definitivamente no representa la habilidad de Will Theard, este es su sitio web personal, construido como una terapia de sesión"
+      footer-mention-2: "Actualmente no estoy buscando trabajo, pero aquí están mis contactos. Llámame si te interesa."
+    
       

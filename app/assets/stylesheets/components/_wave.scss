@@ -87,7 +87,7 @@
   min-height: 100vh;
   height: auto;
   overflow: hidden; 
-  background:#382933;
+  background:#708160;
 }
 .custom-shape-divider-top-1612398373 {
   position: absolute;
@@ -115,7 +115,8 @@
   margin: 0;
   padding: 0;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
+  height: auto;
   overflow: hidden; 
   background:#f6f6f6;
   position: relative;
@@ -138,7 +139,7 @@
 }
 
 .custom-shape-divider-top-1612619083 .shape-fill {
-  fill: #382933;
+  fill: #708160;
 }
 
 
@@ -147,10 +148,10 @@
 .section-six {
   display: block;
   margin: 0;
-  padding-bottom:30px;
+  padding-bottom:8px;
   min-height: 0px;
   width: 100%;
-  background:darkmagenta;
+  background: #f6f6f6;
   overflow: hidden;
 }
 
