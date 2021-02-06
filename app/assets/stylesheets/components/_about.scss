@@ -1,0 +1,46 @@
+.profile-picture {
+  width: 100%;
+  max-width: 256px;
+  height: auto;
+  border-radius: 100px;
+}
+
+.about-text {
+  margin-top: 100px;
+}
+
+.about-content h2 {
+  position :relative;
+  color: #fff;
+  z-index: 3;
+}
+
+.about-content p {
+  text-align: justify;
+  position: relative;
+  color: #fff;
+  opacity: 0.7;
+}
+
+.about-content h5 {
+  position: relative;
+  color: #fff;
+  opacity: 0.7;
+}
+
+.without-decoration {
+  text-decoration: none !important;
+  color: $gold;
+  &:hover {
+    color: #f7fafb;
+    opacity: 0.7;
+  } 
+}
+
+
+
+
+
+
+
+

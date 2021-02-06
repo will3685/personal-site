@@ -1,0 +1,125 @@
+*,
+*:before, 
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clear-fix:after {
+  display: block;
+  clear: both;
+  content: '';
+}
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+.card__collection {
+  position: relative;
+  // display: block;
+  background: transparent;
+  padding: 10px;
+  justify-content: center;
+  // overflow: hidden;
+
+  .advanced {
+    border: 3px solid;
+    border-color: $gold;
+    border-radius: 15px;
+  }
+  .intermediate {
+    border: 3px solid;
+    border-color: $crazy-green;
+    border-radius: 15px;
+  }
+  .beginner {
+    border: 3px solid;
+    border-color: $blue-dark;
+    border-radius: 15px;
+  }
+    
+  .cards {
+      width: 100px;
+      height: 100px;
+      display: block;
+      background-size: cover;     
+      position: relative;
+      overflow: hidden;
+      background-position: center;
+      background-color: $background;
+  }
+  
+  .cards--two {
+      position: relative;
+      backface-visibility: hidden;
+      
+      p {
+        position: absolute;
+        top: 64%;
+        left: -100%;
+        text-transform: capitalize;
+        color: #fff;
+        font-size: 18px;
+        z-index: 8;
+        transition: all .6s ease;
+      }
+      
+      &:hover {
+        
+        p {
+          left: 8%;
+        }        
+        .cards--two__rect {
+          top: 75%;
+          
+          &:before {
+            transform: translateY(15px);
+          }
+        }
+      }
+
+      .advanced1 {
+        &:before{
+          background: $gold;
+        }
+      }
+      .intermediate1 {
+        &:before {
+          background: $crazy-green;
+        }
+      }
+      .beginner1 {
+        &:before {
+          background: $blue-dark;
+        }
+      }
+      
+      &__rect {
+        width: 400px;
+        height: 100px;
+        display: block;
+        position: absolute;
+        top: 175%;
+        left: -78%;
+        transform: rotate(30deg);
+        z-index: 5;
+        opacity: 1;
+        transition: all .3s ease-in-out;
+        
+        &:before {
+          content: '';
+          display: block;
+          width: 100%;
+          position: relative;
+          height: 100%;
+          transform: translateY(200px);
+          z-index: 2;
+          transition: all .3s ease-in-out;
+          transition-delay: .1s;
+        }
+      }
+    }
+}

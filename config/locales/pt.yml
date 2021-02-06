@@ -10,3 +10,10 @@ pt:
       work-first: "Atualmente estou trabalhando no"
       work-second: "como desenvolvedor web."
       skills: "Competências e Ferramentas"
+      skill-good: "Avançado"
+      skill-medium: "Intermediário"
+      skill-basic: "Iniciante"
+      project: "Projetos em que venho trabalhando"
+      project-title: "One Click"
+      project-text: "Um simples aplicativo Ruby on Rails para gerenciar a agenda."
+      

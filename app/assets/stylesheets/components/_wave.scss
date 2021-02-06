@@ -1,29 +1,160 @@
-.upper-wave {
+// section one corver
+.section-one {
   margin: 0;
   padding: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  z-index: 0;
+}
+
+// section two about
+
+.section-two {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
+  overflow: hidden; 
+  position: relative;
+  background: $light-black;
+}
+
+.custom-shape-divider-top-1612401506 {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   overflow: hidden;
   line-height: 0;
 }
 
-.upper-wave svg {
-  background: $light-black;
+.custom-shape-divider-top-1612401506 svg {
+  position: relative;
   display: block;
-  height: 100vh;
+  width: calc(140% + 1.3px);
+  height: 22px;
 }
 
-.section-about {
+.custom-shape-divider-top-1612401506 .shape-fill {
+  fill: #FFFFFF;
+}
+
+.custom-shape-divider-bottom-1612261414 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1612261414 svg {
+  position: relative;
+  display: block;
+  width: calc(148% + 1.3px);
+  height: 62px;
+}
+
+.custom-shape-divider-bottom-1612261414 .shape-fill {
+  fill: #f6f6f6;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+  .custom-shape-divider-bottom-1612261414 svg {
+      width: calc(148% + 1.3px);
+      height: 40px;
+  }
+}
+
+// section three skills
+.section-three {
   margin: 0;
   padding: 0;
   width: 100%;
+  height: auto;
+  overflow: hidden; 
+  background: #f6f6f6;
+}
+
+// section four project
+.section-four {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
+  overflow: hidden; 
+  background:#382933;
+}
+.custom-shape-divider-top-1612398373 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1612398373 svg {
+  position: relative;
+  display: block;
+  width: calc(106% + 1.3px);
+  height: 79px;
+}
+
+.custom-shape-divider-top-1612398373 .shape-fill {
+  fill: #f6f6f6;
+}
+
+// section five entertainment
+
+.section-five {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden; 
+  background:#f6f6f6;
+  position: relative;
+}
+
+.custom-shape-divider-top-1612619083 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1612619083 svg {
+  position: relative;
+  display: block;
+  width: calc(129% + 1.3px);
+  height: 30px;
+}
+
+.custom-shape-divider-top-1612619083 .shape-fill {
+  fill: #382933;
+}
+
+
+
+// section six footer 
+.section-six {
+  display: block;
+  margin: 0;
+  padding-bottom:30px;
+  min-height: 0px;
+  width: 100%;
+  background:darkmagenta;
   overflow: hidden;
 }
 
-.section-about svg {
-  display: block;
-  background:$light-black;
-  height: 90vh;
-}
+
 
 
 

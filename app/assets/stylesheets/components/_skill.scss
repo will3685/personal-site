@@ -1,0 +1,52 @@
+.skills-title {
+  text-align: center;
+}
+
+.color-good {
+  background-color: $gold;
+  opacity: 1;
+  height: 3vw;
+  width: 3vw;
+  max-height: 3vw;
+  max-width: 3vw;
+  border: 1px gray solid;
+  border-radius: 4px;
+}
+
+.color-medium {
+  background-color: $crazy-green;
+  opacity: 1;
+  height: 3vw;
+  width: 3vw;
+  max-height: 3vw;
+  max-width: 3vw;
+  border: 1px gray solid;
+  border-radius: 4px;
+}
+
+.color-basic {
+  background-color: $blue-dark;
+  opacity: 1;
+  height: 3vw;
+  width: 3vw;
+  max-height: 3vw;
+  max-width: 3vw;
+  border: 1px gray solid;
+  border-radius: 4px;
+}
+
+.fa-code {
+  font-size: 40px;
+}
+
+.fa-database {
+  font-size: 40px;
+}
+
+.fa-laptop {
+  font-size: 40px;
+}
+
+.fa-wrench {
+  font-size: 40px;
+}

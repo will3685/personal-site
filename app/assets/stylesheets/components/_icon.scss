@@ -1,28 +1,17 @@
-@media (max-width: 575px) { 
-.icon-flag {
-  img {
-    width: 4vh;
-    height: 2vh;
-    border-radius: 4px;
-  }
-}
-}
-
-@media (min-width: 575px) {
-  .icon-flag {
-    img {
-      width: 6vh;
-      height: 4vh;
-      border-radius: 4px;
-    }
-  }
-}
-
 .icon-contact {
   color: #D1B000;
   font-size: 24px;
   &:hover {
     color: #61b15a;
+  }
+}
+
+.icon-flag {
+  img {
+    width: 6vh;
+    height: 4vh;
+    border-radius: 4px;
+    padding: 2px;
   }
 }
 

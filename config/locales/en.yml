@@ -41,4 +41,10 @@ en:
       work-first: "I am currently working at"
       work-second: "as web developer."
       skills: "Skills & Tools"
+      skill-good: "Advanced"
+      skill-medium: "Intermediate"
+      skill-basic: "Beginner"
+      project: "Things I´ve been work on"
+      project-title: "One Click"
+      project-text: "A simple Ruby on Rails app for managing agenda..."
   

@@ -1,28 +1,19 @@
 // Specific CSS for your home-page
-@media (max-width: 575px) {
-  body{
-    font-size: 16px;
-    h2 {
-      font-size: 24px;
-    }
-  }
-}
+// @media (max-width: 575px) {
+// }
 
-@media (min-width: 575px) {
-  body {
-    font-size: 18px;
-  }
-}
+// @media (min-width: 575px) {
+// }
 
 body {
+  margin: 0;
+  padding: 0px;
+  color:$light-black;
   background: $background;
-  color: $light-black;
   overflow-x: hidden;
-  .content {
-    color: #fff;
-    p {
-      opacity: .6;
+  font-size: 18px;
+  h2 {
+    font-size: 40px;
   }
- }
 }
  
