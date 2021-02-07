@@ -1,6 +1,7 @@
 class Skill < ApplicationRecord
   validates :level, presence: true
   validates :title, presence: true
+  validates :category, presence: true
 
   SKILLS = [
   {
